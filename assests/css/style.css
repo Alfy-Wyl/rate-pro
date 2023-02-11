@@ -41,3 +41,16 @@ h3 {
     text-align: center;
 }
 
+
+.btn {
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px 12px;
+    font-size: 17px;
+    background-color: rgba(4, 86, 86, 0.47);
+    color:aliceblue
+}
+
+.btn:hover {
+    background-color: rgb(126, 130, 133);
+}
