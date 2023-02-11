@@ -62,6 +62,7 @@ h3 {
     justify-content: space-between;
 }
 
+/* included svg link to get arrow-down symbol*/
 #first-currency,
 #second-currency {   
     padding: 10px 20px 10px 10px;
