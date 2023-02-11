@@ -102,3 +102,15 @@ h3 {
     padding: 0 10px;
     font-size: 14px;
 }
+
+/* To remove outline on buttons*/
+select:focus, input:focus, button:focus {
+    outline: 0;
+}
+
+
+@media (max-width: 600px) {
+    .currency input {
+        width: 200px;
+    }   
+}
