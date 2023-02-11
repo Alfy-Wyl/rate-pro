@@ -30,3 +30,14 @@ body {
     color: #000000;
     border: 3px solid rgb(201, 195, 163);
 }
+
+h1,
+h3 {
+    color: rgb(35, 111, 111);
+}
+
+
+h3 {
+    text-align: center;
+}
+
