@@ -9,6 +9,10 @@ const exchangeRate = document.getElementById('exchange-rate');
 // Function to Fetch Exchange Rate from API
 function calculate () {
 
+    // Set Variables to get the values of base currency and compared currency
+    const first_currency = baseCurrency.value;
+    const second_currency = compareCurrency.value;
+
 }  
 
 
@@ -18,3 +22,7 @@ baseCurrency.addEventListener('change', calculate);
 firstAmount.addEventListener('input', calculate);
 compareCurrency.addEventListener('change', calculate);
 secondAmount.addEventListener('input', calculate);
+
+
+// Call the Function Calculate
+calculate();
