@@ -13,6 +13,14 @@ function calculate () {
     const first_currency = baseCurrency.value;
     const second_currency = compareCurrency.value;
 
+    // Make Request to API using Fetch
+    fetch(`https://v6.exchangerate-api.com/v6/533467798b5009e17d6d3a8e/latest/${first_currency}`)
+        .then(response => response.json())
+        .then(forex => {
+            const rate = forex.conversion_rates[second_currency];    
+             
+        })
+
 }  
 
 
