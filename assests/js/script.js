@@ -22,7 +22,8 @@ function calculate () {
             // Display Exchange Rate Element with a Default of 1
             exchangeRate.innerText = `1 ${first_currency} = ${rate} ${second_currency}`;
 
-             
+            // Set Amount Element to Display Actual Exchange Rate in 2 Decimal Places
+            secondAmount.value = (firstAmount.value * rate).toFixed(2);
         })
 
 }  
