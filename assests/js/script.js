@@ -17,7 +17,11 @@ function calculate () {
     fetch(`https://v6.exchangerate-api.com/v6/533467798b5009e17d6d3a8e/latest/${first_currency}`)
         .then(response => response.json())
         .then(forex => {
-            const rate = forex.conversion_rates[second_currency];    
+            const rate = forex.conversion_rates[second_currency]; 
+            
+            // Display Exchange Rate Element with a Default of 1
+            exchangeRate.innerText = `1 ${first_currency} = ${rate} ${second_currency}`;
+
              
         })
 
