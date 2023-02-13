@@ -36,6 +36,16 @@ firstAmount.addEventListener('input', calculate);
 compareCurrency.addEventListener('change', calculate);
 secondAmount.addEventListener('input', calculate);
 
+// Create an Event Listener for the Switch Button
+// Add a Function to enable Switch between the Two Currencies
+switchEl.addEventListener('click', () => {
+    const swap = baseCurrency.value;
+    baseCurrency.value = compareCurrency.value;
+    compareCurrency.value = swap;
+    calculate(); 
+
+})
+
 
 // Call the Function Calculate
 calculate();
