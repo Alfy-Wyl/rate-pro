@@ -24,10 +24,12 @@ function calculate () {
 
             // Set Amount Element to Display Actual Exchange Rate in 2 Decimal Places
             secondAmount.value = (firstAmount.value * rate).toFixed(2);
+
+            // Set Rate from API to Local Storage
+            localStorage.setItem('rate', JSON.stringify(rate));
         })
 
 }  
-
 
 
 // Add Event Listeners for the Select and Input Elements
