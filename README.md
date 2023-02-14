@@ -11,9 +11,25 @@ https://img.freepik.com/premium-vector/money-currency-exchange-dollar-euro-yuan-
 
 ## Usage
 
+The application comes with three interactive buttons that allows users to;
+* select a base currency from a list of currencies
+* toggle between the set base and the conversion currencies
+* select the conversion currency from a list of currencies
+
+When a user clicks on the first button, they are presented with a list of currencies to select from as base currency.
+
+When a user clicks on the third button, they are presented with a list of currencies to select from as conversion currency.
+
+When a user clicks on the switch button, then the base currency and the conversion currency swap positions.
+
+When a user inputs a number, then the conversion rate is displayed.
+When a user clicks on the arrow up and down buttons, then the numbers increase/decrease accordingly.
+
 
 
 ## License
+
+MIT License. See license link for more details.
 
 
 ## Link
