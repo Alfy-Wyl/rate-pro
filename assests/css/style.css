@@ -108,6 +108,19 @@ select:focus, input:focus, button:focus {
     outline: 0;
 }
 
+.footer {
+   position: absolute;
+   bottom: 0;
+   margin-bottom: 15px;
+}
+
+
+.heart-symbol {
+    color: rgba(148, 13, 6, 0.935);
+    font-size: 1.2em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 @media (max-width: 600px) {
     .currency input {
