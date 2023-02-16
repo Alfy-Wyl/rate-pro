@@ -78,10 +78,6 @@ h3 {
     background-position-x: 60px
 }
 
-#first-currency:hover,
-#second-currency:hover {
-    background-color: rgb(239, 239, 239);
-}
 
 #first-amount,
 #second-amount {
@@ -89,6 +85,13 @@ h3 {
     background: transparent;
     text-align: right;
     font-size: 25px;
+}
+
+#first-currency:hover,
+#second-currency:hover,
+#first-amount:hover,
+#second-amount:hover {
+    background-color:rgb(240, 240, 240)
 }
 
 .switch-container {
