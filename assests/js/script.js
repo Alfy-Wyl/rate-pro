@@ -15,7 +15,7 @@ function calculate () {
 
     // Make Request to API using Fetch
     fetch(`https://v6.exchangerate-api.com/v6/533467798b5009e17d6d3a8e/latest/${first_currency}`)
-        .then(response => response.json())
+        .then(response => response.json()) 
         .then(forex => {
             const rate = forex.conversion_rates[second_currency]; 
             
@@ -25,11 +25,29 @@ function calculate () {
             // Set Amount Element to Display Actual Exchange Rate in 2 Decimal Places
             secondAmount.value = (firstAmount.value * rate).toFixed(2);
 
-            // Set Rate from API to Local Storage
-            localStorage.setItem('rate', JSON.stringify(rate));
+           
+            // Store in Local Storage
+            storeResultInLocalStorage(secondAmount.value);
         })
 
-}  
+} 
+
+
+// Function to Assess and Store Result to Local Storage 
+function storeResultInLocalStorage(rate) {
+    let rateResult;
+    if(localStorage.getItem('rateResult') === null){
+        rateResult = [];
+    } else {
+        rateResult = JSON.parse(localStorage.getItem('rateResult'));
+    }
+
+    rateResult.push(rate);
+
+    localStorage.setItem('rateResult', JSON.stringify(rateResult));
+
+
+}
 
 
 // Add Event Listeners for the Select and Input Elements
