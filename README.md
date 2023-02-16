@@ -23,8 +23,7 @@ When a user clicks on the third button, they are presented with a list of curren
 When a user clicks on the switch button, then the base currency and the conversion currency swap positions.
 
 When a user inputs a number, then the conversion rate is displayed.
-When a user clicks on the arrow up and down buttons, then the numbers increase/decrease accordingly.
-
+When a user clicks on the arrow up and down buttons, then the numbers increase/decrease accordingly, then the conversion rate is displayed in real time as the numbers change.
 
 
 ## License
