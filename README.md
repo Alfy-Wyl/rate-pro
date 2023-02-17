@@ -37,3 +37,7 @@ https://alfy-wyl.github.io/rate-pro/
 
 ## Screenshot
 
+<img width="615" alt="Screenshot 2023-02-17 at 09 16 01" src="https://user-images.githubusercontent.com/118228946/219603427-213239a8-31d1-475e-8885-3d1eaa31a663.png">
+
+<img width="615" alt="Screenshot 2023-02-17 at 09 13 32" src="https://user-images.githubusercontent.com/118228946/219603526-930a2241-6c74-4eb5-9341-0abb6cd2ea66.png">
+
