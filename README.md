@@ -35,6 +35,10 @@ MIT License. See license link for more details.
 
 https://alfy-wyl.github.io/rate-pro/
 
+## Link to recorded presentation
+
+https://www.loom.com/share/866dc919b58e432991ca75d57985a1e0
+
 ## Screenshot
 
 <img width="615" alt="Screenshot 2023-02-17 at 09 20 01" src="https://user-images.githubusercontent.com/118228946/219604179-4442ff7f-1c16-4eb1-b150-07e802beeac6.png">
